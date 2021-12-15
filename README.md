@@ -14,18 +14,18 @@
 
 ## General Information
 
-- We have used concents from Multiple Liniar Regressiion and made use of concepts such as RFE ( recursive feature elimination ) and OLS ( ordinary least sqaure ) to predict the values of bikes thats that can be taken up on hire based on various predictors 
+- We have used concepts from Multiple Linear Regression and made use of concepts such as RFE ( recursive feature elimination ) and OLS ( ordinary least sqaure ) to predict the values of bikes that's that can be taken up on hire based on various predictors 
 -
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
- Using the concents from multiple regression we have created a training set of data and have found the parameters 'yr', 'holiday', 'temp', 'season_winter', 'mnth_mar',
+ Using the concepts from multiple regression we have created a training set of data and have found the parameters 'yr', 'holiday', 'temp', 'season_winter', 'mnth_mar',
        'mnth_may', 'mnth_sept', 'weathersit_bad', 'weathersit_good' after multiple iterations where we compared the VIF ( Variance Inflation Factor ) and P values. Since we wanted a very strong model we removed any sort of multicollinearity by checking the heat map and the removing any factor that had a VIF value that was above 3 or any p value that has a value above 0.05 eventually our model was built to perfection. 
       
--  we then performed the preiction on the training data using a regression model and found the y train pred value, subtracting the y train value to the y train pred value we found that the Errors are normally distribured here with mean 0. So everything seems to be fine
-- We also founf the r_sqared value using this test analisys and noticed it was very close to the value from our final OLS model 
-- We then created a y test pred and found that the r2_square value was almost similiar to the values from the training data which suggested a training set of 70-30 with random state set to 42 percent was an ideal fit 
+-  we then performed the prediction on the training data using a regression model and found the y train pred value, subtracting the y train value to the y train pred value we found that the Errors are normally distributed here with mean 0. So everything seems to be fine
+- We also found the r_sqared value using this test analysis and noticed it was very close to the value from our final OLS model 
+- We then created a y test pred and found that the r2_square value was almost similar to the values from the training data which suggested a training set of 70-30 with random state set to 42 percent was an ideal fit 
 -  we lastly checked for homoscedasticity and found that the model passed the requirement. 
 - we have used the data provided from the company in the file Day.csv
 
@@ -44,10 +44,10 @@
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Inferences
-   The columns that we have taken into accoutn are - 'yr', 'holiday', 'temp', 'season_winter', 'mnth_mar',
+   The columns that we have taken into account are - 'yr', 'holiday', 'temp', 'season_winter', 'mnth_mar',
        'mnth_may', 'mnth_sept', 'weathersit_bad', 'weathersit_good'
        
-       The paramaters are as follows 
+       The parameters are as follows 
  -yr                 1963.721014
 - holiday            -733.958256
 - temp               5226.419951
@@ -58,8 +58,7 @@
 - weathersit_bad    -1579.615781
 - weathersit_good     661.110959
 
-The  R-squared value is as follow -   0.799
-
+The  R-squared value is as follows -   0.799
 
 
 
